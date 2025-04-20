@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>Marcos Rezende Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Think+Pink&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <style>
+        body {
+            font-family: "Inter", sans-serif;
+            background: #D3D3D3;
+        }
+
+        .signature {
+            font-family: 'Think Pink', cursive;
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col">
+    <header class="flex justify-between p-6 text-gray-700 text-sm md:text-base font-semibold">
+        <div class="signature">H.K.W</div>
+        <nav class="flex space-x-12">
+            <!-- Increased space between tabs -->
+            <a href="home.html" class="relative group">
+                <span class="relative z-10">HOME</span>
+                <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-gray-700 transition-all group-hover:w-full"></span>
+            </a>
+            <a href="about.html" class="relative group">
+                <span class="relative z-10">ABOUT</span>
+                <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-gray-700 transition-all group-hover:w-full"></span>
+            </a>
+            <a href="projects.html" class="relative group">
+                <span class="relative z-10">PROJECTS</span>
+                <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-gray-700 transition-all group-hover:w-full"></span>
+            </a>
+            <a href="contact.html" class="relative group">
+                <span class="relative z-10">LET'S CONNECT</span>
+                <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-gray-700 transition-all group-hover:w-full"></span>
+            </a>
+        </nav>
+    </header>
+    <main class="flex flex-col md:flex-row items-center justify-between flex-grow px-6 sm:px-12 md:px-20 lg:px-32 py-20 text-gray-800">
+        <section class="max-w-lg sm:max-w-xl md:max-w-2xl space-y-10 text-center md:text-left">
+            <h1 class="text-3xl sm:text-4xl md:text-5xl font-semibold leading-snug">
+                Hi, I’m Marcos Rezende,
+                <br />
+                a Senior UX Designer
+                <br />
+                based in Ottawa, Canada
+            </h1>
+            <p class="text-gray-600 text-sm sm:text-base leading-relaxed mb-8">
+                Designing the perfect balance between graphic, emotional, tactile, and
+                <br />
+                functional elements to deliver highly usable, exciting, and beautiful
+                <br />
+                user experiences and interactions.
+            </p>
+            <a href="path/to/your/resume.pdf" download>
+                <button type="button" class="border border-gray-700 text-gray-700 text-xs sm:text-sm font-semibold px-6 py-3 rounded hover:bg-gray-700 hover:text-gray-200 transition mt-6">
+                    DOWNLOAD RESUME
+                </button>
+            </a>
+        </section>
+        <section class="mt-12 md:mt-0 flex justify-center w-full md:w-auto">
+            <img alt="Side profile photo of a man with glasses and beard looking right on a gentle grey background" class="w-60 h-60 sm:w-72 sm:h-72 md:w-80 md:h-80 object-cover rounded-full drop-shadow-lg" height="300" src="https://storage.googleapis.com/a1aa/image/543603bc-5421-4aff-187e-f1253e33eb6d.jpg" width="300" />
+        </section>
+    </main>
+    <footer class="flex justify-center space-x-8 p-4 bg-D3D3D3">
+        <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="text-gray-700 hover:text-gray-900">
+            <i class="fab fa-linkedin fa-lg"></i>
+        </a>
+        <a href="https://www.instagram.com/yourprofile" target="_blank" class="text-gray-700 hover:text-gray-900">
+            <i class="fab fa-instagram fa-lg"></i>
+        </a>
+        <a href="mailto:your-email@gmail.com" class="text-gray-700 hover:text-gray-900">
+            <i class="fas fa-envelope fa-lg"></i>
+        </a>
+    </footer>
+</body>
+</html>
